@@ -1,21 +1,23 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package questao5;
 
-/**
- *
- * @author aluno
- */
 public class Questao5 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        
+        
+        CalculadoraFat calc1 = new CalculadoraFat(9);
+        
+        calc1.start();
+        
+        CalculadoraFat calc2 = new CalculadoraFat(10);
+        
+        calc2.start();
+        
+        
+        
+        
+        
     }
     
 }
